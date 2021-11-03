@@ -1,2 +1,3 @@
 name: Jessica E Stockdale
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
