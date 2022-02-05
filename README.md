@@ -1,6 +1,6 @@
 # Repository for personal website
 
-[jessicastockdale.github.io](https://www.jessicastockdale.github.io)
+[jessicastockdale.github.io](https://jessicastockdale.github.io/)
 
 Design: Using Strata by HTML5 UP 
 [html5up.net](https://www.html5up.net) | @ajlkn
