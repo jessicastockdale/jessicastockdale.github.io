@@ -34,13 +34,27 @@
 						
 						<h2>cr0eso</h2>
 						<p> As part of a recent project analysing outbreaks of COVID-19 in British Columbia long-term healthcare facilties, 
-							we developed the R package 'cr0eso' for estimation of  thr basic reproduction number R0 in multiple outbreaks using an 
-							SEIR model. This package allows you to fit a Bayesian hierarchical model to a collection of outbreaks in RStan; primarily 
-							designed for outbreaks
+						        we developed the R package 'cr0eso' for estimation of  the basic reproduction number R0 in multiple outbreaks using an 
+							SEIR model. This package, developed alongside Mike Irvine (BCCDC) and Sean Anderson (Fisheries and Oceans Canada), fits a Bayesian hierarchical 
+							model to a collection of outbreaks in RStan. It is primarily designed for outbreaks
 							occurring in the same population but different facilities, e.g. healthcare, schools, workplaces or prisons. As well as 
-						        R0, it can also be used to estimate the effect of outbreak intervention strategies. 
+						        R0, it can also be used to estimate the effect of outbreak intervention strategies. <br>
 						<button>
    						 <a href="https://sempwn.github.io/cr0eso/index.html"> Package website </a>
+						</button>
+						</p>
+						
+						
+						
+						<h2>Serial intervals from genomic data</h2>
+						<p> A team of us from the MAGPIE group have been developing a new method for estimating serial intervals using genomic data. As part of this, I've been
+							putting together shareable code to employ our approach, which will hopefully soon become an R package. This method estimates the distribution
+							of the serial interval from a collection of host symptom onset dates and their virus sequences, without needing any detailed information on who contacted who.
+							We provide a framework for performing this analysis in a set of case clusters, for example to explore if the serial interval is changing over time or in
+							different settings. The repository contains code to support our <a href="https://www.medrxiv.org/content/10.1101/2022.02.23.22271355v1">preprint</a>,
+							and to apply our method to a simulated outbreak provided. <br>
+						<button>
+   						 <a href="https://github.com/jessicastockdale/genomicSIs"> Project repository </a>
 						</button>
 						</p>
 						
