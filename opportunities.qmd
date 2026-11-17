@@ -1,0 +1,71 @@
+---
+title: "Opportunities"
+---
+
+## Join the group
+
+I'm always interested in hearing from prospective students and postdocs who are excited about the kind of research we do. My trainees commonly have experience in mathematical modelling, statistics, data science or other quantitative methods, but I am also interested in hearing from those with qualitative experience. Key is a keen interest, but not necessarily experience, in health and healthcare. I'm committed to building a group where people from a wide range of backgrounds feel welcome and supported, and especially encourage applications from those underrepresented in the quantitative sciences.
+
+Please click the relevant section below for more details.
+
+<details>
+
+<summary>Graduate students</summary>
+
+If you have an undergraduate degree in mathematics or a related subject (e.g. statistics, physics, engineering), you can apply to study in the [SFU Mathematics graduate program](https://www.sfu.ca/math/graduate.html) under my supervision. Please note that applications must be submitted [directly to SFU](https://www.sfu.ca/math/graduate/prospective/admissions.html): I am not able to accept applications via email. The deadline is typically in January. I review all applicants who list me as a potential supervisor, so reaching out is not required, but feel free to email me if you do have questions. Please note that due to the volume of emails I receive, I am unable to respond to all inquiries - this does not mean I am not looking forward to reading your application!
+
+If you do not have a sufficiently mathematical background for the above, we may be able to arrange an alternative. Please contact me via email.
+
+Graduate students at SFU are typically funded via a combination of scholarships, teaching assistantships (TAs), and research assistantships (RAs). I list below some external scholarship opportunities you may be interested to explore. SFU provides [a longer list](https://www.sfu.ca/gradstudies/awards-funding.html). 
+
+-   The Canada Graduate Research Scholarship [Doctoral](https://nserc-crsng.canada.ca/en/funding-opportunity/canada-graduate-research-scholarship-doctoral-program) and [Masters](https://nserc-crsng.canada.ca/en/funding-opportunity/canada-graduate-research-scholarship-masters-program) programs provide 3 years (PhD) or 1 year (Masters) funding. The doctoral program is now open to both Canadian and international applicants (see eligibility criteria). Each of the tri-agencies handles applications individually, but deadlines are typically in the Fall, to start the following year. 
+
+-   The [Health System Impact Fellowship](https://cihr-irsc.gc.ca/e/51211.html) provides 1 year of doctoral funding to work embedded with a health system partner. This is a potential pathway to work in our VCH-SFU Embedded Research Program, although I am happy to hear from students interested to work with other partners. Applications are typically due in January, to start the following September.
+
+-   [MITACS Accelerate](https://www.mitacs.ca/our-programs/accelerate/) provide funding for grad students partnered with non-academic organizations. Lengths are flexible, from 4 months to 5 years, but do require coordinating partner co-funding. These have a rolling deadline. 
+
+</details>
+
+<details>
+
+<summary>Postdoctoral researchers</summary>
+
+I'm very interested to hear from potential postdocs from a range of backgrounds.  
+
+I list below some of the funding opportunities that I am aware of, but please note that this is not an exhaustive list. If you are interested in working with me, please email me to discuss potential funding options.
+
+-   The [Canada Postdoctoral Research Award](https://nserc-crsng.canada.ca/en/funding-opportunity/canada-postdoctoral-research-award-program) provides 2 years of postdoc funding, and is now open to both Canadian and international applicants (see eligibility criteria). Each of the tri-agencies handles applications individually, but deadlines are typically in the Fall, to start the following year. 
+
+-   The [Health System Impact Fellowship](https://cihr-irsc.gc.ca/e/51211.html) provides 2 years of postdoc funding to work embedded with a health system partner. This is a potential pathway to work in our VCH-SFU Embedded Research Program, although I am happy to hear from postdocs interested to work with other partners. Applications are typically due in January, to start the following September.
+
+-   [PIMS](https://pims.math.ca/programs/scientific/postdoctoral) postdoctoral fellowships fund 1 year of postdoc research in mathematics. Deadlines are typically in December to start the following year, but I recommend contacting me early as this award requires co-funding. 
+
+-   [MITACS Accelerate](https://www.mitacs.ca/our-programs/accelerate/) provide funding for postdocs partnered with non-academic organizations. Lengths are flexible, from 4 months to 5 years, but do require coordinating partner co-funding. These have a rolling deadline. 
+
+</details>
+
+<details>
+
+<summary>Undergraduate students</summary>
+
+I typically work with several undergraduates per year. This can involve a specific research project, or more general research support. Options for funding include:
+
+-   [Undergraduate Student Research Awards (USRAs)](https://www.sfu.ca/research/for-students/ugrad-research-awards/eligibility.html) support students for 4 months of research, typically in the summer. Applications open in Jan/Feb.
+
+-   The [Canada Summer Jobs](https://www.canada.ca/en/employment-social-development/services/funding/canada-summer-jobs.html) program provides funding for 6-16 weeks of summer work, for students under 30 who are Canadian citizens, permanent residents or refugees. You should ideally contact me in Nov/Dec the year before the summer you are interested in working.
+
+-   The [SFU Work-Study program](https://www.sfu.ca/students/financial-aid/undergraduate/work-study.html) provides funding for 140 hours of research work per semester, for SFU students with financial need. Provides research experience around your normal class schedule. Applications typically open 6 weeks before semester start.
+
+-   The [Mitacs Globalink Research Internship](https://www.mitacs.ca/our-programs/globalink-research-internship-students/) funds 12-week summer research internships for senior, international undergraduates, including stipend and travel support. This award requires more advance preparation - students apply in \~August for research the following summer.
+
+If you are interested to work with me, please follow the instructions below and include also an idea of how much time/for how long you would like to work and if you would like to apply for these or other awards. 
+
+</details>
+
+<p class="section-kicker" style="margin-top:32px;">
+
+</p>
+
+## Get in touch
+
+If you are interested in joining my research group, please email me at [jessica_stockdale\@sfu.ca](mailto:%20jessica_stockdale@sfu.ca) with a CV, a transcript, and a brief description of your research interests. 

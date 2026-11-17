@@ -1,0 +1,116 @@
+---
+title: "Publications"
+---
+
+<p class="section-kicker">
+
+Full list on [Google Scholar](https://scholar.google.com/citations?user=KpsXogEAAAAJ&hl=en).
+
+</p>
+
+```{r}
+#| echo: false
+#| results: asis
+#| message: false
+#| warning: false
+
+library(RefManageR)
+
+bib <- ReadBib("publications.bib", check = FALSE)
+
+# Small helper: always returns a length-1 value, never NULL / character(0) / numeric(0)
+safe_field <- function(x, default = "") {
+  if (is.null(x) || length(x) == 0) return(default)
+  x[[1]]
+}
+
+# Build one record per entry
+recs <- lapply(seq_along(bib), function(i) {
+  entry <- bib[[i]]
+
+  year_raw <- safe_field(entry$year, safe_field(entry$date, NA_character_))
+  year_num <- if (is.na(year_raw)) {
+    NA_real_
+  } else {
+    yn <- suppressWarnings(as.numeric(gsub("\\D.*", "", as.character(year_raw))))
+    if (length(yn) == 0 || is.na(yn)) NA_real_ else yn
+  }
+
+  authors <- entry$author
+  author_str <- ""
+  if (!is.null(authors) && length(authors) > 0) {
+    names_fmt <- format(authors, include = c("given", "family"))
+    n <- length(names_fmt)
+    author_str <- if (n > 1) {
+      paste0(paste(names_fmt[1:(n - 1)], collapse = ", "), ", and ", names_fmt[n])
+    } else {
+      names_fmt
+    }
+  }
+
+  title <- safe_field(entry$title, "")
+  journal <- safe_field(entry$journal, safe_field(entry$journaltitle, ""))
+  vol <- safe_field(entry$volume, "")
+  pages <- safe_field(entry$pages, "")
+  extra_parts <- c(vol, pages)
+  extra_parts <- extra_parts[nchar(extra_parts) > 0]
+  extra <- paste(extra_parts, collapse = ": ")
+
+  url <- safe_field(entry$url, "")
+  if (nchar(url) == 0) {
+    doi <- safe_field(entry$doi, "")
+    if (nchar(doi) > 0) url <- paste0("https://doi.org/", doi)
+  }
+
+  meta <- paste0(author_str, ". <em>", journal, "</em>",
+                 if (nchar(extra) > 0) paste0(" ", extra) else "", ".")
+
+  list(year = year_num, title = title, meta = meta, url = if (nchar(url) > 0) url else NULL)
+})
+
+# Split into dated vs undated, so undated always lands at the bottom
+has_year <- vapply(recs, function(r) !is.na(r$year), logical(1))
+dated <- recs[has_year]
+undated <- recs[!has_year]
+
+# Dated: newest year first, then alphabetical by title within a year
+if (length(dated) > 0) {
+  ord <- order(-vapply(dated, function(r) r$year, numeric(1)),
+               vapply(dated, function(r) r$title, character(1)))
+  dated <- dated[ord]
+}
+# Undated: alphabetical by title, always after all dated entries
+if (length(undated) > 0) {
+  ord2 <- order(vapply(undated, function(r) r$title, character(1)))
+  undated <- undated[ord2]
+}
+
+all_recs <- c(dated, undated)
+year_labels <- vapply(all_recs, function(r) if (is.na(r$year)) "" else as.character(r$year), character(1))
+
+# Render one .pub-item per year GROUP, listing every paper from that year together
+n <- length(all_recs)
+i <- 1
+while (i <= n) {
+  current_year <- year_labels[i]
+  j <- i
+  while (j < n && year_labels[j + 1] == current_year) j <- j + 1
+
+  cat('<div class="pub-item">\n')
+  cat(sprintf('<span class="pub-year">%s</span>\n', current_year))
+  cat('<div>\n')
+  for (k in i:j) {
+    r <- all_recs[[k]]
+    if (!is.null(r$url)) {
+      cat(sprintf('<p class="pub-title"><a href="%s" target="_blank" rel="noopener">%s</a></p>\n', r$url, r$title))
+    } else {
+      cat(sprintf('<p class="pub-title">%s</p>\n', r$title))
+    }
+    cat(sprintf('<p class="pub-meta" style="margin-bottom:16px;">%s</p>\n', r$meta))
+  }
+  cat('</div>\n')
+  cat('</div>\n\n')
+
+  i <- j + 1
+}
+```

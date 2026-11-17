@@ -1,0 +1,239 @@
+/* ---------- Hero ---------- */
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 230px;
+  gap: 44px;
+  align-items: start;
+  margin-bottom: 8px;
+}
+@media (max-width: 780px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-photo { order: -1; max-width: 150px; }
+}
+
+.eyebrow {
+  font-size: 15px;
+  color: var(--rose-deep);
+  margin: 0 0 8px;
+  font-weight: 700;
+}
+
+.hero-lede {
+  font-size: 19px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  max-width: 54ch;
+  margin: 14px 0 22px;
+}
+
+.hero-photo img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+}
+
+/* ---------- Pills ---------- */
+.hero-affils { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 22px; }
+.pill {
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--rose-tint);
+  color: var(--rose-deep) !important;
+  text-decoration: none !important;
+  border: none;
+  display: inline-block;
+}
+.pill:hover { background: var(--gold-tint); color: var(--body-color, #2B2630) !important; }
+
+
+.tag-filter { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 28px; }
+.tag-filter-btn {
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--rose-tint);
+  color: var(--rose-deep);
+  border: none;
+  cursor: pointer;
+}
+.tag-filter-btn.active {
+  background: var(--rose-deep);
+  color: #fff;
+}
+.card[hidden] { display: none; }
+
+/* ---------- Signature path element ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,500;1,600&display=swap');
+
+.path-wrap {
+  margin: 8px 0 28px;
+  margin-left: calc(50% - 50vw);
+  max-width: 1500px;
+}
+.path-wrap svg { width: 100%; height: auto; display: block; }
+.path-caption {
+  font-family: "Piazzolla", Georgia, serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--ink-soft);
+}
+
+/* ---------- Section kicker ---------- */
+.section-kicker {
+  font-size: 14px;
+  color: var(--rose-deep);
+  font-weight: 700;
+  margin: 0 0 6px;
+  text-transform: none;
+}
+
+/* ---------- Cards ---------- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 24px;
+}
+@media (max-width: 880px) { .card-grid { grid-template-columns: 1fr; } }
+
+.card-grid .card {
+  background: #FFFFFF;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 22px;
+}
+.card-tag {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--rose-deep);
+  background: var(--rose-tint);
+  display: inline-block;
+  padding: 3px 11px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+.card-grid .card h3 { font-size: 18px; margin: 0 0 8px; }
+.card-grid .card p { color: var(--ink-soft); font-size: 15px; margin: 0; }
+
+.card-avatar {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 10px;   /* rounded rectangle instead of circle */
+  margin-bottom: 14px;
+  border: 1px solid var(--line);
+  display: block;
+}
+
+/* ---------- Publications ---------- */
+.pub-item {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 20px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+}
+.pub-item:first-child { padding-top: 0; }
+.pub-year { font-weight: 700; color: var(--gold); }
+.pub-title { font-weight: 700; margin: 0 0 4px; }
+.pub-meta { color: var(--muted); font-size: 14.5px; margin: 0; }
+@media (max-width: 560px) { .pub-item { grid-template-columns: 1fr; gap: 4px; } }
+
+/* ---------- Timeline ---------- */
+.timeline-item {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+.timeline-item:first-child { padding-top: 0; }
+@media (max-width: 560px) { .timeline-item { grid-template-columns: 1fr; gap: 6px; } }
+.timeline-when { color: var(--muted); font-size: 14.5px; }
+.timeline-item h3 { font-size: 17px; margin: 0 0 6px; }
+.timeline-item p { margin: 0 0 6px; }
+.timeline-now {
+  font-size: 14px;
+  color: var(--muted);
+}
+.timeline-now strong { color: var(--ink-soft); }
+
+.person-entry { margin-bottom: 20px; }
+.person-entry:last-child { margin-bottom: 0; }
+
+/* ---------- Contact ---------- */
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+@media (max-width: 700px) { .contact-grid { grid-template-columns: 1fr; } }
+.contact-row {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+.contact-label { font-size: 13px; color: var(--muted); width: 90px; flex-shrink: 0; }
+.headshot {
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+}
+
+/* ---------- Dropdown ---------- */
+details {
+  border-bottom: 1px solid var(--line);
+  padding: 18px 0;
+}
+details:first-of-type { padding-top: 0; }
+details summary {
+  font-family: var(--font-display, "Roboto", sans-serif);
+  font-weight: 700;
+  font-size: 19px;
+  cursor: pointer;
+  color: var(--ink);
+}
+details[open] summary { margin-bottom: 10px; }
+
+/* ---------- Resource cards ---------- */
+@media (min-width: 881px) { .card-grid-2 { grid-template-columns: repeat(2, 1fr); } }
+.card-grid .card h4 { font-size: 18px; margin: 0 0 8px; }
+.card-grid .card h4 code { font-size: 16px; background: none; padding: 0; }
+
+/* ---------- Linked document preview ---------- */
+.resource-feature {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 24px;
+  align-items: start;
+  margin: 8px 0 24px;
+}
+.resource-feature img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.resource-feature p { margin: 0; }
+@media (max-width: 560px) {
+  .resource-feature { grid-template-columns: 1fr; }
+  .resource-feature a { max-width: 200px; }
+}
+
+/* ---------- About page intro ---------- */
+.about-intro {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 36px;
+  align-items: start;
+  margin-bottom: 8px;
+}
+@media (max-width: 700px) {
+  .about-intro { grid-template-columns: 1fr; }
+  .about-intro .headshot { max-width: 200px; }
+}

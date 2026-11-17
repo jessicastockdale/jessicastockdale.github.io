@@ -1,0 +1,35 @@
+---
+title: "Contact"
+---
+
+::::: contact-grid
+<div>
+
+<p class="section-kicker">
+
+</p>
+
+```{=html}
+<div class="contact-row"><span class="contact-label">Email</span> <a href="mailto:jessica_stockdale@sfu.ca">jessica_stockdale@sfu.ca</a></div>
+<div class="contact-row"><span class="contact-label">Office</span> <span>S19</span></div>
+<div class="contact-row"><span class="contact-label">Address</span> <span>Stephens Family School of Medicine<br>  
+Simon Fraser University<br>   
+250 – 13450 102nd Avenue<br>  
+Surrey<br>  
+BC V3T 0A3</span></div>
+```
+
+</div>
+
+<div>
+
+```{=html}
+<iframe
+  src="https://www.google.com/maps?q=SFU+Stephens+Family+School+of+Medicine,+Surrey,+BC&output=embed"
+  width="100%" height="320" style="border:0; border-radius:14px;" loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade" title="Map of the SFU Stephens Family School of Medicine">
+</iframe>
+```
+
+</div>
+:::::

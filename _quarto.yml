@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jessica Stockdale"
+  description: "Mathematical modelling for equitable, evidence-informed health care and population health."
+  site-url: "https://jessicastockdale.github.io"
+  favicon: images/favicon.png
+  open-graph: true
+  twitter-card: true
+  navbar:
+    left: []
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: People
+        href: people.qmd
+      - text: Opportunities
+        href: opportunities.qmd
+      - text: Resources
+        href: resources.qmd
+      - text: Contact
+        href: contact.qmd
+      - icon: google
+        href: https://scholar.google.com/citations?user=KpsXogEAAAAJ&hl=en
+        aria-label: Google Scholar
+      - icon: github
+        href: https://github.com/jessicastockdale
+        aria-label: GitHub
+  page-footer:
+    right: "© 2026 Jessica Stockdale"
+    border: false
+
+format:
+  html:
+    theme: [lumen, custom_theme.scss]
+    css: styles.css
+    toc: false
+    page-layout: article
+    grid:
+      body-width: 900px
+
+editor: visual

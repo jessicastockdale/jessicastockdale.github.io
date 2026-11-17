@@ -1,0 +1,31 @@
+---
+title: "About Me"
+---
+
+:::: about-intro
+<img src="images/2026_headshot.jpg" alt="Jessica Stockdale" class="headshot"/>
+
+<div>
+
+I am an Assistant Professor in the SFU Stephens Family School of Medicine.
+
+My research uses mathematical modelling, statistics, and data science to advance evidence-informed health care delivery and population health interventions. Much of my spans two connected themes: operational research applied to primary and community care; and public health modelling for challenges from infectious disease spread to societal issues such as homelessness and housing. In practice, this ranges from granular questions such as how to optimize primary care scheduling to best meet the needs of patients and providers, all the way to design of population-level public health interventions that improve health outcomes for under-served populations.
+
+</div>
+::::
+
+I value working directly with health system and community partners, to ensure research responds to practical needs and translates to meaningful change. I am the co-lead of the Vancouver Coastal Health (VCH)-SFU Embedded Research Program: a learning health systems initiative integrating research within VCH operations. Through this work, I am also interested in the study of how research gets implemented in practice and what makes embedded partnerships effective.
+
+## Background
+
+-   **2026-** Assistant Professor, Stephens Family School of Medicine, Simon Fraser University
+
+-   **2022-2026** Assistant Professor, Department of Mathematics, Simon Fraser University
+
+-   **2018-2022** Postdoctoral Fellow, Department of Mathematics, Simon Fraser University
+
+-   **2014-2018** PhD, School of Mathematical Sciences, University of Nottingham
+
+-   **2010-2014** MMath Master of Mathematics (1st class Hons), School of Mathematical Sciences, University of Nottingham
+
+[Back to People](people.qmd)

@@ -1,0 +1,53 @@
+---
+title: "Teaching"
+---
+
+<p class="section-kicker">
+
+</p>
+
+## Undergraduate Courses
+
+::::: timeline-item
+[SFU Medicine]{.timeline-when}
+
+<div>
+
+I support the Scholar Curriculum component of the School of Medicine's MD program, mentoring students throughout their scholarly projects and leading large-group sessions to learn the fundamentals of scholarly inquiry.
+
+</div>
+
+[SFU Mathematics]{.timeline-when}
+
+<div>
+
+MATH 498: Communication and Research Skills in the Mathematical Sciences (2025)
+
+MATH 499W: Honours Research Project (2025)
+
+MATH 158: Calculus II for the Social Sciences **(**2025)
+
+MATH 208W: Introduction to Operations Research (2024)
+
+MATH 396: Mathematical Modelling of Infectious Diseases (2023)
+
+MATH 152: Calculus II (2020)
+
+FAN X99: Foundations of Analytical and Quantitative Reasoning (2019)
+
+</div>
+:::::
+
+## Training Courses
+
+:::: timeline-item
+[SISMID]{.timeline-when}
+
+<div>
+
+### Reconstructing Transmission with Genomic Data
+
+Co-taught with Caroline Colijn. Covers methods for transmission reconstruction (who infected whom) that combine epidemiological and genomic data: outbreaker2, TransPhylo, BREATH and others. Taught at the Summer Institute in Statistics and Modeling Infectious Diseases (University of Washington then Emory University) since 2020. You can access materials from a recent iteration of the course [here](https://jessicastockdale.github.io/SISMID2024-transmission-genomics/).
+
+</div>
+::::

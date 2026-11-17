@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+
+// use lumen as the base
+$theme: "lumen" !default;
+
+// fonts — Roboto + Fira Mono
+$font-family-sans-serif: "Roboto", sans-serif;
+$font-family-monospace: "Fira Mono", monospace;
+$headings-font-family: "Roboto", sans-serif;
+$headings-font-weight: 700;
+
+// colours
+$body-bg: #F4F4EF;
+$body-color: #2B2630;
+$primary: #AE5B54;
+$link-color: #8F4640;
+$navbar-bg: #F4F4EF;
+$navbar-fg: #2B2630;
+$navbar-hl: #AE5B54;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Fira+Mono:wght@400;500;700&display=swap');
+
+:root {
+  --rose: #AE5B54;
+  --rose-deep: #8F4640;
+  --gold: #C99A3E;
+  --gold-tint: #F3E7CB;
+  --rose-tint: #F1E1DE;
+  --line: #E1DED4;
+  --ink-soft: #58515C;
+  --muted: #8A8390;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--line);
+  box-shadow: none;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
