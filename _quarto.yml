@@ -20,8 +20,8 @@ website:
         href: publications.qmd
       - text: Teaching
         href: teaching.qmd
-      - text: People
-        href: people.qmd
+     # - text: People
+     #   href: people.qmd
       - text: Opportunities
         href: opportunities.qmd
       - text: Resources
